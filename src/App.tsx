@@ -28,14 +28,14 @@ function App() {
   var type = useRef("");
 
   const firebaseConfig = {
-    apiKey: "AIzaSyBo0rfvxWk-ONJwxR-9s_p10F4tgHIlt2A",
-    authDomain: "p2pfile-a6d84.firebaseapp.com",
-    databaseURL:
-      "https://p2pfile-a6d84-default-rtdb.asia-southeast1.firebasedatabase.app",
-    projectId: "p2pfile-a6d84",
-    storageBucket: "p2pfile-a6d84.appspot.com",
-    messagingSenderId: "886889178798",
-    appId: "1:886889178798:web:5f5a1727a4584040712f3f",
+    apiKey: "AIzaSyCE08vDZRnneJBWkTJGlIRK4osfiAHU4FM",
+  authDomain: "market-eed24.firebaseapp.com",
+  databaseURL: "https://market-eed24-default-rtdb.firebaseio.com",
+  projectId: "market-eed24",
+  storageBucket: "market-eed24.appspot.com",
+  messagingSenderId: "149290205276",
+  appId: "1:149290205276:web:9fd1db67dfa01722b4a699",
+  measurementId: "G-YT9VD9EE03"
   };
   const app = initializeApp(firebaseConfig);
   const db = getFirestore(app);
